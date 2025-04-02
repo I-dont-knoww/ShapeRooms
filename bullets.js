@@ -1,4 +1,4 @@
-const slowness = 1.5;
+const slowness = 3;
 let antilag = localStorage.antilag ? (localStorage.antilag == "true" ? true : false) : false;
 
 class Bullet {
